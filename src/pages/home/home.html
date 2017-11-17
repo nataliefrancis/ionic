@@ -6,7 +6,16 @@
 
 <ion-content padding>
   <h2>Welcome to Natalie's Ionic Page!</h2>
+
   <h6>Some may ask "What do you want to do for project 4?"</h6>
-  <p>The simple answer to that is "I have no fucking idea because my brain is still fried from project 3".</p>
-  <p>In the meantime, please enjoy the quiet of my white space. Namaste!</p>
+    <p>The simple answer to that is "I have no fucking idea because my brain is still fried from project 3".</p>
+    <p>In the meantime, please enjoy the quiet of my white space. Namaste!</p>
+
+  <div>
+    <h6>If you care to give me suggestions, please leave them here:</h6>
+
+    Suggestion: <input [(ngModel)]="suggest">
+
+    <p>Here's an idea: {{suggest}}</p>
+  </div>
 </ion-content>
